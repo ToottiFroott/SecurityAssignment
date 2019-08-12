@@ -1,0 +1,41 @@
+.home {
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.trees, .json-headers {
+    padding: 0 50px;
+    display: flex;
+}
+
+.trees > *, .json-headers > * {
+    width: 50%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-login {
+    background-color: rgb(156, 56, 56);
+}
+
+.btn-api {
+    background-color: rgb(35, 194, 186);
+}
+
+.btn-logout {
+    background-color: rgb(0, 0, 0);
+}
